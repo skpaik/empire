@@ -46,7 +46,7 @@ class SwapiService:
     def get_evacuation_details(self, starship_id, planet_id_or_name):
         starship = self.get_starship_by_id(starship_id)
 
-        if isinstance(planet_id_or_name, int):
+        if isinstance(planet_id_or_name, int) or planet_id_or_name.isdigit():
             planet = self.get_planet_by_id(planet_id_or_name)
         else:
             planet = self.get_planet_by_name(planet_id_or_name)
