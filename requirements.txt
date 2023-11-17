@@ -1,4 +1,7 @@
-Django
+django
 djangorestframework==3.10.0
 pytest==5.3.5
 pytest-django==3.8.0
+
+djongo
+requests
