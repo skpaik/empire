@@ -3,4 +3,4 @@ from django.apps import AppConfig
 
 class StarshipConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'starship'
+    name = 'api'
